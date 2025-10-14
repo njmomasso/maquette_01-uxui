@@ -1,5 +1,16 @@
+/*
+notes
+
+makes seperate files for each compnents (and sinsce everything is in BEM it'll be easyyyyy)
+review les autres conqurants to see what could be missing to my filters
+hover should be muted blue for buttons
+media queries??????
+add more cartes
+*/
+
 :root{
-  --color-blue: #0033FF;        
+  --color-blue: #0033FF;
+  --color-blue-muted: #0033ffad;       
   --color-gold: #C09746;       
   --color-purple: #8C7AA9;     
   --color-bg: #FAF9F9;         
@@ -139,7 +150,8 @@ body {
 }
 
 .recherche__bouton:hover { 
-    background:#a67934; }
+    background: var(--color-blue-muted);
+ }
 
 /* -------------------------
    CONTENU PRINCIPAL
