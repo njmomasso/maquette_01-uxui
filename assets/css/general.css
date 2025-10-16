@@ -13,9 +13,6 @@
   --shadow: 0 8px 24px rgba(53,60,64,0.06);
 }
 
-/* -------------------------
-   BASE
-   ------------------------- */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -44,97 +41,6 @@ body {
   width: 1px;
   overflow: hidden;
   border: 0;
-}
-
-
-/* NAV */
-.entete__nav {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.nav-principal__lien {
-  text-decoration: none;
-  color: var(--color-text);
-  font-family: "Rubik", "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  padding: 6px 8px;
-}
-
-.nav-principal__lien[aria-current="page"]{ 
-  font-weight: 700; 
-  color: var(--color-blue); 
-}
-
-.nav-principal__lien:hover, 
-.nav-principal__lien:focus { 
-  color: var(--color-blue); 
-  outline: none; 
-}
-
-/* RECHERCHE */
-.recherche {
-  display: flex;
-  align-items: center;
-}
-
-.recherche__input {
-  border: 1px solid rgba(53,60,64,0.06);
-  padding: 8px 12px;
-  font-size: 14px;
-  min-width: 200px;
-  border-radius: 6px 0 0 6px;
-  background:#fff;
-  color: var(--color-text);
-}
-.recherche__input::placeholder {
-     color: var(--color-text); 
-    } 
-
-.recherche__bouton {
-  background: var(--color-blue);
-  border: 0;
-  padding: 9px 14px;
-  cursor: pointer;
-  color:#fff;
-  border-radius: 0 6px 6px 0;
-  font-size: 16px;
-}
-
-.recherche__bouton:hover { 
-    background: var(--color-blue-muted);
- }
-
-/* -------------------------
-   CONTENU PRINCIPAL
-   ------------------------- */
-
-.catalogue-intro { 
-    padding: 28px 0 8px 0; 
-}
-
-.catalogue-intro__titre {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 34px;
-  margin: 0 0 6px 0;
-  color: var(--color-text);
-}
-
-.catalogue-intro__lead { 
-    color: var(--color-text); 
-    margin: 6px 0 0 0; 
-}
-
-/* GRILLE */
-.catalogue-grid {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 28px;
-  align-items: start;
-  margin-top: 20px;
 }
 
 /* -------------------------

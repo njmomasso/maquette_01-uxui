@@ -1,0 +1,24 @@
+.catalogue-intro { 
+    padding: 28px 0 8px 0; 
+}
+
+.catalogue-intro__titre {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 34px;
+  margin: 0 0 6px 0;
+  color: var(--color-text);
+}
+
+.catalogue-intro__lead { 
+    color: var(--color-text); 
+    margin: 6px 0 0 0; 
+}
+
+/* GRILLE */
+.catalogue-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 28px;
+  align-items: start;
+  margin-top: 20px;
+}

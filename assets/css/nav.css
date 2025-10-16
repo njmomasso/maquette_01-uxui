@@ -1,0 +1,27 @@
+/* NAV */
+.entete__nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-principal__lien {
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: "Rubik", "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 6px 8px;
+}
+
+.nav-principal__lien[aria-current="page"]{ 
+  font-weight: 700; 
+  color: var(--color-blue); 
+}
+
+.nav-principal__lien:hover, 
+.nav-principal__lien:focus { 
+  color: var(--color-blue); 
+  outline: none; 
+}
