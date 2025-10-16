@@ -1,0 +1,18 @@
+.liste__header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 12px; 
+}
+
+.liste__resultats { 
+    margin: 0; 
+    font-size: 13px; 
+    color: var(--color-text); 
+}
+
+.liste__sous-resultats { 
+    margin: 0; 
+    font-size: 13px; 
+    color: var(--color-text); 
+}
