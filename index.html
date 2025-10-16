@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Stampee — Catalogue des enchères</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/main.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/general.css">
 </head>
 
 <body>
@@ -27,7 +29,8 @@
 
             <form class="recherche" aria-label="Recherche dans le catalogue">
                 <label for="search-input" class="visually-hidden">Rechercher un timbre</label>
-                <input id="search-input" type="search" class="recherche__input" placeholder="Recherche (ex. Penny Black, Inverted Jenny)">
+                <input id="search-input" type="search" class="recherche__input"
+                    placeholder="Recherche (ex. Penny Black, Inverted Jenny)">
                 <button type="submit" class="recherche__bouton">🔍</button>
             </form>
         </div>
@@ -36,7 +39,8 @@
     <main class="contenu-principal container">
         <section class="catalogue-intro">
             <h1 class="catalogue-intro__titre">Catalogue des enchères</h1>
-            <p class="catalogue-intro__lead"> Parcourez les enchères en cours et filtrez par pays, année, état ou certification. </p>
+            <p class="catalogue-intro__lead"> Parcourez les enchères en cours et filtrez par pays, année, état ou
+                certification. </p>
         </section>
 
         <section class="catalogue-grid">
@@ -92,7 +96,7 @@
             <section class="liste" aria-label="Liste des enchères">
                 <div class="liste__header">
                     <div>
-                        <p class="liste__resultats">Résultat(s) <strong>1</strong></p>
+                        <p class="liste__resultats">Résultat(s) <strong>5</strong></p>
                         <p class="liste__sous-resultats">Enchères en cours — mis à jour aujourd'hui</p>
                     </div>
 
@@ -108,21 +112,23 @@
                 </div>
 
                 <ul class="cartes">
+                    <!-- Lot 1 -->
                     <li class="cartes__item">
                         <article class="timbre" aria-labelledby="lot-1-title">
                             <div class="timbre__perforation timbre__perforation--top" aria-hidden="true"></div>
 
                             <div class="timbre__corps">
                                 <div class="timbre__image">
-                                    <img src="assets/img/Penny_black.jpg"
-                                        alt="Penny Black 1840, Royaume-Uni">
+                                    <img src="assets/img/Penny_black.jpg" alt="Penny Black 1840, Royaume-Uni">
                                 </div>
 
                                 <div class="timbre__meta">
                                     <h3 id="lot-1-title" class="timbre__titre">Penny Black — 1840 (Royaume-Uni)</h3>
-                                    <p class="timbre__ligne"><strong>État :</strong> Excellente • <strong>Certifié :</strong> Oui</p>
+                                    <p class="timbre__ligne"><strong>État :</strong> Excellente • <strong>Certifié
+                                            :</strong> Oui</p>
                                     <p class="timbre__ligne"><strong>Tirage :</strong> Feuille originale</p>
-                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-02 18:00 GMT • <strong>Enchères:</strong> 9</p>
+                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-02 18:00 GMT •
+                                        <strong>Enchères:</strong> 9</p>
 
                                     <div class="timbre__prix-row">
                                         <p class="timbre__prix">Prix actuel <span>£18,750</span></p>
@@ -131,9 +137,9 @@
                                     </div>
 
                                     <div class="timbre__actions">
-                                        <a class="btn btn--primaire" href="#" aria-label="Placer une offre sur Penny Black">Placer une offre</a>
-                                        <a class="btn btn--ghost" href="#" aria-label="Voir Penny Black">Voir</a>
-                                        <a class="lien-secondaire" href="#" aria-label="Détails Penny Black">Détails</a>
+                                        <a class="btn btn--primaire" href="#">Placer une offre</a>
+                                        <a class="btn btn--ghost" href="#">Voir</a>
+                                        <a class="lien-secondaire" href="#">Détails</a>
                                     </div>
                                 </div>
                             </div>
@@ -142,8 +148,148 @@
                         </article>
                     </li>
 
-                    <!-- Ajouter d'autres cartes réelles ici -->
+                    <!-- Lot 2 -->
+                    <li class="cartes__item">
+                        <article class="timbre" aria-labelledby="lot-2-title">
+                            <div class="timbre__perforation timbre__perforation--top" aria-hidden="true"></div>
+
+                            <div class="timbre__corps">
+                                <div class="timbre__image">
+                                    <img src="assets/img/jenny.jpg" alt="Inverted Jenny 1918, États-Unis">
+                                </div>
+
+                                <div class="timbre__meta">
+                                    <h3 id="lot-2-title" class="timbre__titre">Inverted Jenny — 1918 (États-Unis)</h3>
+                                    <p class="timbre__ligne"><strong>État :</strong> Très bonne • <strong>Certifié
+                                            :</strong> Oui</p>
+                                    <p class="timbre__ligne"><strong>Tirage :</strong> Bloc de 100</p>
+                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-10 20:00 GMT •
+                                        <strong>Enchères:</strong> 12</p>
+
+                                    <div class="timbre__prix-row">
+                                        <p class="timbre__prix">Prix actuel <span>$1,200,000</span></p>
+                                        <span class="timbre__badge timbre__badge--gold">Pièce rare</span>
+                                    </div>
+
+                                    <div class="timbre__actions">
+                                        <a class="btn btn--primaire" href="#">Placer une offre</a>
+                                        <a class="btn btn--ghost" href="#">Voir</a>
+                                        <a class="lien-secondaire" href="#">Détails</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timbre__perforation timbre__perforation--bottom" aria-hidden="true"></div>
+                        </article>
+                    </li>
+
+                    <!-- Lot 3 -->
+                    <li class="cartes__item">
+                        <article class="timbre" aria-labelledby="lot-3-title">
+                            <div class="timbre__perforation timbre__perforation--top" aria-hidden="true"></div>
+
+                            <div class="timbre__corps">
+                                <div class="timbre__image">
+                                    <img src="assets/img/5001.jpg" alt="Cérès 1849, France">
+                                </div>
+
+                                <div class="timbre__meta">
+                                    <h3 id="lot-3-title" class="timbre__titre">Cérès — 1849 (France)</h3>
+                                    <p class="timbre__ligne"><strong>État :</strong> Bonne • <strong>Certifié :</strong>
+                                        Non</p>
+                                    <p class="timbre__ligne"><strong>Tirage :</strong> Première émission française</p>
+                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-05 15:00 GMT •
+                                        <strong>Enchères:</strong> 7</p>
+
+                                    <div class="timbre__prix-row">
+                                        <p class="timbre__prix">Prix actuel <span>€9,500</span></p>
+                                        <span class="timbre__badge timbre__badge--bleu">Historique</span>
+                                    </div>
+
+                                    <div class="timbre__actions">
+                                        <a class="btn btn--primaire" href="#">Placer une offre</a>
+                                        <a class="btn btn--ghost" href="#">Voir</a>
+                                        <a class="lien-secondaire" href="#">Détails</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timbre__perforation timbre__perforation--bottom" aria-hidden="true"></div>
+                        </article>
+                    </li>
+
+                    <!-- Lot 4 -->
+                    <li class="cartes__item">
+                        <article class="timbre" aria-labelledby="lot-4-title">
+                            <div class="timbre__perforation timbre__perforation--top" aria-hidden="true"></div>
+
+                            <div class="timbre__corps">
+                                <div class="timbre__image">
+                                    <img src="assets/img/85A.jpg" alt="Z-Grill 1868, États-Unis">
+                                </div>
+
+                                <div class="timbre__meta">
+                                    <h3 id="lot-4-title" class="timbre__titre">Z-Grill — 1868 (États-Unis)</h3>
+                                    <p class="timbre__ligne"><strong>État :</strong> Très rare • <strong>Certifié
+                                            :</strong> Oui</p>
+                                    <p class="timbre__ligne"><strong>Tirage :</strong> Moins de 10 exemplaires connus
+                                    </p>
+                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-15 22:00 GMT •
+                                        <strong>Enchères:</strong> 5</p>
+
+                                    <div class="timbre__prix-row">
+                                        <p class="timbre__prix">Prix actuel <span>$2,950,000</span></p>
+                                        <span class="timbre__badge timbre__badge--gold">Exceptionnel</span>
+                                    </div>
+
+                                    <div class="timbre__actions">
+                                        <a class="btn btn--primaire" href="#">Placer une offre</a>
+                                        <a class="btn btn--ghost" href="#">Voir</a>
+                                        <a class="lien-secondaire" href="#">Détails</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timbre__perforation timbre__perforation--bottom" aria-hidden="true"></div>
+                        </article>
+                    </li>
+
+                    <!-- Lot 5 -->
+                    <li class="cartes__item">
+                        <article class="timbre" aria-labelledby="lot-5-title">
+                            <div class="timbre__perforation timbre__perforation--top" aria-hidden="true"></div>
+
+                            <div class="timbre__corps">
+                                <div class="timbre__image">
+                                    <img src="assets/img/Gul_tre_skilling_banco.jpg" alt="Treskilling Yellow 1855, Suède">
+                                </div>
+
+                                <div class="timbre__meta">
+                                    <h3 id="lot-5-title" class="timbre__titre">Treskilling Yellow — 1855 (Suède)</h3>
+                                    <p class="timbre__ligne"><strong>État :</strong> Bonne • <strong>Certifié :</strong>
+                                        Oui</p>
+                                    <p class="timbre__ligne"><strong>Tirage :</strong> Erreur d’impression unique</p>
+                                    <p class="timbre__infos"><strong>Fin:</strong> 2025-11-20 19:00 GMT •
+                                        <strong>Enchères:</strong> 11</p>
+
+                                    <div class="timbre__prix-row">
+                                        <p class="timbre__prix">Prix actuel <span>€2,300,000</span></p>
+                                        <span class="timbre__badge timbre__badge--gold">Unique au monde</span>
+                                    </div>
+
+                                    <div class="timbre__actions">
+                                        <a class="btn btn--primaire" href="#">Placer une offre</a>
+                                        <a class="btn btn--ghost" href="#">Voir</a>
+                                        <a class="lien-secondaire" href="#">Détails</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="timbre__perforation timbre__perforation--bottom" aria-hidden="true"></div>
+                        </article>
+                    </li>
                 </ul>
+
             </section>
         </section>
     </main>
