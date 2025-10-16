@@ -1,0 +1,32 @@
+.entete {
+  background: var(--color-card);
+  border-bottom: 1px solid rgba(53,60,64,0.06);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.entete__contenu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 0;
+}
+
+.entete__logo {
+  font-family: "Cormorant Garamond",serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.entete__slogan {
+  display: block;
+  font-size: 12px;
+  color: var(--color-text);
+  margin-top: 4px;
+}
