@@ -43,8 +43,6 @@ body {
   border: 0;
 }
 
-
-
 .cartes{ 
     list-style: none; 
     padding: 0; 
@@ -55,115 +53,6 @@ body {
 }
 
 
-.timbre {
-  background: var(--color-card);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  border: 1px solid rgba(53,60,64,0.04);
-  display: flex;
-  flex-direction: column;
-}
-
-
-.timbre__corps { 
-    display: flex; 
-    gap: 18px; 
-    padding: 16px; 
-    align-items: flex-start; 
-}
-
-.timbre__image { 
-    width: 180px; 
-    height: 140px; 
-    flex-shrink: 0; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    border-radius: 6px; 
-    overflow: hidden; 
-    border: 1px solid rgba(53,60,64,0.04); 
-    background: #f3f3f3; 
-}
-
-.timbre__image img { 
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
-    display: block;
- }
-
-
-.timbre__meta { 
-    flex: 1; 
-}
-
-.timbre__titre { 
-    margin: 0 0 6px 0; 
-    font-family: "Cormorant Garamond", serif; 
-    font-size: 18px; 
-    color: var(--color-text); 
-}
-
-.timbre__ligne { 
-    margin: 4px 0; 
-    color: var(--color-text); 
-    font-size: 13px; 
-}
-
-.timbre__infos { 
-    margin: 8px 0; 
-    font-size: 13px; 
-    color: var(--color-text); 
-}
-
-.timbre__prix-row { 
-    display: flex; 
-    align-items: center; 
-    gap: 12px; 
-    margin-top: 8px; 
-}
-
-.timbre__prix span { 
-    font-weight: 700; 
-    color: var(--color-blue); 
-    margin-left: 8px; 
-    font-size: 16px; 
-}
-
-.timbre__badge { 
-    padding: 6px 10px; 
-    border-radius: 18px; 
-    font-size: 13px; 
-    background:rgba(0,0,0,0.04); 
-    color: var(--color-text); 
-}
-
-.timbre__badge--gold  { 
-    background: linear-gradient(90deg, rgba(192,151,70,0.14), rgba(192,151,70,0.06)); 
-    color:var(--color-gold); 
-    font-weight: 600; }
-
-.timbre__badge--bleu { 
-    background-color: var(--color-blue); 
-    color:#fff; 
-    font-weight: 600; 
-}
-
-.timbre__actions { 
-    display: flex; 
-    gap: 10px; 
-    margin-top: 12px; 
-    align-items: center; 
-}
-
-.btn--ghost:hover { 
-    background: transparent; 
-    color: var(--color-blue-muted); 
-    border: 1px solid rgba(0,51,255,0.06); 
-    padding: 8px 12px; 
-    border-radius: 6px; 
-    text-decoration: none; 
-}
 
 .lien-secondaire { 
     color: var(--color-text); 
@@ -177,37 +66,4 @@ body {
     color: var(--color-blue); 
 }
 
-/* -------------------------
-   PIED DE PAGE
-   ------------------------- */
-.pied-de-page { 
-    margin-top: 32px; 
-    padding: 18px 0; 
-    background: transparent; 
-    border-top: 1px solid rgba(53,60,64,0.04); 
-}
-
-.pied-de-page__contenu { 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 12px; 
-}
-
-.pied-de-page__logo { 
-    font-family: "Cormorant Garamond", serif; 
-    font-size: 18px; 
-    margin: 0; 
-    color: var(--color-text); 
-}
-
-.pied-de-page__texte { 
-    color: var(--color-text); 
-    margin: 6px 0 0 0; 
-}
-
-.pied-de-page__nav a { 
-    display: block; 
-    margin-bottom: 0.25rem;
-}
 

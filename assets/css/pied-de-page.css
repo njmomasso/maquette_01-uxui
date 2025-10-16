@@ -1,0 +1,30 @@
+.pied-de-page { 
+    margin-top: 32px; 
+    padding: 18px 0; 
+    background: transparent; 
+    border-top: 1px solid rgba(53,60,64,0.04); 
+}
+
+.pied-de-page__contenu { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 12px; 
+}
+
+.pied-de-page__logo { 
+    font-family: "Cormorant Garamond", serif; 
+    font-size: 18px; 
+    margin: 0; 
+    color: var(--color-text); 
+}
+
+.pied-de-page__texte { 
+    color: var(--color-text); 
+    margin: 6px 0 0 0; 
+}
+
+.pied-de-page__nav a { 
+    display: block; 
+    margin-bottom: 0.25rem;
+}
