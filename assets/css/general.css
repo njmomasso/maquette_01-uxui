@@ -52,18 +52,3 @@ body {
     gap: 18px; 
 }
 
-
-
-.lien-secondaire { 
-    color: var(--color-text); 
-    text-decoration: none; 
-    font-family: "Rubik",sans-serif; 
-    font-weight: 500; 
-}
-
-.lien-secondaire:hover { 
-    text-decoration: underline; 
-    color: var(--color-blue); 
-}
-
-
